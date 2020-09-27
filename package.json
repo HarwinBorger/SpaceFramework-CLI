@@ -1,0 +1,30 @@
+{
+  "name": "@harwinborger/spaceframework-cli",
+  "version": "0.1.0",
+  "description": "CLI for the SpaceFramework",
+  "main": "src/index.js",
+  "repository": "https://github.com/HarwinBorger/SpaceFramework-CLI",
+  "bin": {
+    "@harwinborger/spaceframework": "bin/spaceframework.js",
+    "spaceframework": "bin/spaceframework.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "Harwin Borger",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5"
+  }
+}
