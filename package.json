@@ -1,5 +1,5 @@
 {
-  "name": "@harwinborger/spaceframework-cli",
+  "name": "spaceframework-cli",
   "version": "0.1.0",
   "description": "CLI for the SpaceFramework",
   "main": "src/main.js",
