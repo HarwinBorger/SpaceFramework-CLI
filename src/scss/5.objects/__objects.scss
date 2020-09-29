@@ -1,0 +1,16 @@
+/**
+ * 5. OBJECTS
+ *
+ * @description: class-based selectors which define undecorated
+ * design patterns, for example media object known from OOCSS
+ */
+
+// SpaceFramework Layout classes
+@include grid-classes();
+@include layout-classes();
+@include position-classes();
+// SpaceFramework Typography classes
+@include text-preset-classes();
+@include font-size-classes();
+// SpaceFramework Extra alignment classes
+@include self-classes();
