@@ -5,7 +5,6 @@ import ncp from 'ncp';
 import path from 'path';
 import { install } from 'pkg-install';
 import { promisify } from 'util';
-import resolve from 'resolve';
 
 const access = promisify(fs.access);
 const copy = promisify(ncp);
